@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/seekbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="73dp"
+            android:text="pre"
+            android:id="@+id/btnpre"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="67dp"
+            android:text="skip pre"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:id="@+id/btnffpre"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:src="@drawable/play"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:id="@+id/btnplay"
+            android:layout_height="50dp" />
+
+        <Button
+            android:layout_width="57dp"
+            android:text="skip"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:id="@+id/btnffnext"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="73dp"
+            android:text="next"
+            android:id="@+id/btnnext"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
